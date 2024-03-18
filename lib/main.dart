@@ -1,4 +1,5 @@
 import 'package:desafio_mobile/lang/translation_service.dart';
+import 'package:desafio_mobile/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -15,8 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Desafio Mobile',
       navigatorKey: Get.key,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(), //adicionar cores aqui
-      // home: SplashPage(),
+      themeMode: ThemeMode.system,
+      home: HomePage(),
       locale: TranslationsService.locale,
       fallbackLocale: TranslationsService.fallbackLocale,
       translations: TranslationsService(),
