@@ -24,11 +24,14 @@ git clone https://github.com/cesarmartins1245/desafio-mobile.git
 2. Navegue até o diretório do projeto:
 
 ```bash
-cd nome-do-repositorio
+cd desafio-mobile
 ```
 
 3. Execute o aplicativo em um emulador ou dispositivo físico:
 
+```bash
+flutter pub get
+```
 ```bash
 flutter run
 ```
