@@ -1,4 +1,4 @@
-# Desafio Mobile BE
+# Desafio Mobile Be
 
 Este é um projeto desenvolvido como parte do desafio Mobile da BE. O objetivo é construir uma aplicação móvel em Flutter que exibe uma tabela com informações provenientes de uma API simulada, permitindo também a pesquisa por meio de um input.
 
